@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints the phrase "Programming is like building a multilingual puzzle
- * Return: 0 if exited properly, non-zero otherwie
+ * main - A program that prints a line with puts function
+ * Return: 0 (Success)
  */
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
+	puts("\"Programming is like a multilingual puzzle");
+	Return (0);
 }
