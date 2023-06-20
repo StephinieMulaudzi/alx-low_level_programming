@@ -5,7 +5,7 @@
  * main - assigns a random number to int n everytime
  * Description: Get a random number and print the number
  * and if it is positive, negative or zero
- * Return : 0
+ * Return: Always 0 (Successs)
  */
 int main(void)
 {
