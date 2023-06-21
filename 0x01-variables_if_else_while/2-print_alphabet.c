@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - prints the alphabet in lowercase,
  * followed by a new line.
@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	char c = 'a';
-	
-	while (c < = 'z')
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-		{
-			putchar(c);
-			c++;
-		}
+       for (i = 0; < 26; i++)
+       {
+	       putchar(alphabet[i]);
+       }
 
 	putchar('\n');
 	return (0);
